@@ -4,7 +4,7 @@
 	<groupId>ch.sbb.maven.plugins</groupId>
 	<artifactId>iib-maven-plugin</artifactId>
 	<packaging>maven-plugin</packaging>
-	<version>10.0-SNAPSHOT</version>
+	<version>10.1-SNAPSHOT</version>
 	<name>iib-maven-plugin Maven Mojo</name>
 	<url>http://maven.apache.org</url>
 	<properties>
@@ -300,10 +300,9 @@
 		</repository>
 		<snapshotRepository>
 			<uniqueVersion>true</uniqueVersion>
-			<id>nexusSnapshots</id>
-			<name>Nexus Snapshots</name>
-			<url>http://www.vadosity.com:8081/nexus/content/repositories/snapshots/</url>
-			<layout>default</layout>
+                        <id>distribution.repository</id>
+                        <name>distribution.repository</name>
+                        <url>http://localhost:18081/repository/maven-snapshots/</url>
 		</snapshotRepository>
 
 	</distributionManagement>

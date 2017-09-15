@@ -1,7 +1,0 @@
-	<distributionManagement>
-		<repository>
-			<id>distribution.repository</id>
-			<name>distribution.repository</name>
-			<url><<distribution.repository>></url>
-		</repository>
-	</distributionManagement>
